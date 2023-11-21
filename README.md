@@ -12,3 +12,6 @@ and that's probably all
 
 # i have no idea how formating in this works
 dunno took me somewhere around one to two hours to figure everything out
+
+# btw i have no idea if this poses any security risks so use on your own responsibility (yes i'm using that too)
+cheers
