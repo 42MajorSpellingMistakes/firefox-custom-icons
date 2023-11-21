@@ -1,0 +1,15 @@
+@-moz-document url(about:home), url(about:newtab) {
+    .search-wrapper .logo-and-wordmark .logo {
+    background: url("firefox82x82.png") !important;
+    display: inline-block;
+/*    height: 200px;
+    width: 200px;
+    background-size: 200px;
+*/
+
+}
+}
+.brand-icon{content: url("firefox.png") !important;}
+
+
+
