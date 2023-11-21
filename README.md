@@ -10,7 +10,8 @@ name it firefox.png<br>
 and another one (downscaled to 82x82) named firefox82x82.png<br>
 and that's probably all<br><br><br>
 
-how do i attach an image in this thing?<br> <img href="0001109.png"></img>
+![how do i attach an image in this thing?](0001109.png)
+
 
 # i have no idea how formating in this works
 dunno took me somewhere around one to two hours to figure everything out
