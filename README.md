@@ -14,9 +14,9 @@ things after live-testing aren't needed there<br>
 in this example i use those by [lux](https://twitter.com/LuxxArt) (love ya art lux)<br>
 https://twitter.com/LuxxArt/status/1727019006186664230<br>
 name it firefox.png<br>
-put it into the ["chrome"](https://support.mozilla.org/en-US/questions/937284) folder<br>
-folder in question: ![folder view](folder.png)
-and that's probably all the setup for now<br><br><br>
+put it into the ["chrome"](https://support.mozilla.org/en-US/questions/937284) folder<br><br>
+folder in question:<br>![folder view](folder.png)
+<br>and that's probably all the setup for now<br><br><br>
 working on other icons
 
 ![how do i attach an image in this thing?](example.png)
