@@ -1,6 +1,6 @@
 /*working*/
 
-/*extensions button, you can remove that honestly*/
+/*extensions button, you can remove that - it isn't firefox logo by default*/
 #unified-extensions-button { list-style-image: url('firefox.png') !important; } 
 
 /*about:firefoxview button icon (the one on the left of the taskbar)*/

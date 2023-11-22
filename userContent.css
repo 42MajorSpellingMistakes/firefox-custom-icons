@@ -1,17 +1,16 @@
 @-moz-document 
-url(about:home), url(about:newtab), url(about:firefoxview){ /* yeah there is a lot of, dunno why i can't space those out to new lines ://// */
+url(about:home), url(about:newtab), url(about:firefoxview), url(about:debugging){ /* yeah there is a lot of, dunno why i can't space those out to new lines ://// */
     .search-wrapper .logo-and-wordmark .logo {
-    background: url("firefox.png") !important;          /* about:home icon, well seems it doesn't need to be 82x82 anymore*/
-    background-size: 82px !important;                   /* i still don't understand why everything needs the !important thingy*/
+    background: url("firefox.png") !important;    /* about:home icon, well seems it doesn't need to be 82x82 anymore*/
+    background-size: 82px !important;}            /* i still don't understand why everything needs the !important thingy*/
+
+    .brand-icon{background: url("firefox.png") !important;
+                background-size: 40px !important;
+                height: 40px;} /* about:firefoxview icon */
+
+    
+/*that's still my testing, commented so won't do anything
+    .undecorated-link .sidebar-fixed-item__container .sidebar-fixed-item__icon{
+        background: url("firefox.png") !important;
+        background-size: 24px !important;} */
     }
-
-    .brand-icon{content: url("firefox.png") !important;} /* about:firefoxview icon */
-
-/* that's still my testing, commented so won't do anything
-.sidebar-fixed-item__icon{background: url("firefox24x24.png") !important;} */
-}
-
-/* , url(about:newtab), url(about:firefoxview)
-url(about:home), url(about:newtab), url(about:firefoxview)
-url(about:home), url(about:newtab), url(about:firefoxview)
-*/

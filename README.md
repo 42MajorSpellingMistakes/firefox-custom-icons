@@ -1,5 +1,7 @@
 # btw i have no idea if this poses any security risks so use on your own responsibility (yes i'm using that too, because i love it)
-cheers
+cheers<br>
+also, i urge anyone wanting to do this do read the comments in the .css files<br>
+(css comment example: /\*  comment, can be multi line \*/)
 
 # how to etc:
 first this thing<br>
@@ -20,4 +22,6 @@ working on other icons
 dunno took me somewhere around one to two hours to figure everything out
 
 <br><br><br>
-hey you no longer need to resize that one image :+1: (does this even support emotes?)
+hey you no longer need to resize that one image :+1: (does this even support emotes?)<br>
+hey i may even learn web formating doing this<br>
+finally a good use for my free time
