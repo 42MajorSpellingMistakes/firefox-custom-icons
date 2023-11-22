@@ -16,3 +16,5 @@ YOU WANT to see the lock icon
 
 /*new tab taskbar icon (aka. favicon)*/
 .tab-icon-image[src="chrome://branding/content/icon32.png"] {content: url("firefox.png") !important;}
+
+

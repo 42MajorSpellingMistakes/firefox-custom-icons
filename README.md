@@ -9,7 +9,7 @@ https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_l
 things after live-testing aren't needed there<br>
 
 # then get some image files 
-in this example i use those (love ya art lux)<br>
+in this example i use those (love ya art [lux](https://twitter.com/LuxxArt))<br>
 https://twitter.com/LuxxArt/status/1727019006186664230<br>
 name it firefox.png<br>
 and that's probably all the setup for now<br><br><br>
@@ -23,5 +23,5 @@ dunno took me somewhere around one to two hours to figure everything out
 
 <br><br><br>
 hey you no longer need to resize that one image :+1: (does this even support emotes?)<br>
-hey i may even learn web formating doing this<br>
+i may even learn web formating doing this<br>
 finally a good use for my free time

@@ -1,16 +1,26 @@
-@-moz-document 
+@-moz-document /*this thing makes it applicable only on selected URLs*/
 url(about:home), url(about:newtab), url(about:firefoxview), url(about:debugging){ /* yeah there is a lot of, dunno why i can't space those out to new lines ://// */
     .search-wrapper .logo-and-wordmark .logo {
-    background: url("firefox.png") !important;    /* about:home icon, well seems it doesn't need to be 82x82 anymore*/
-    background-size: 82px !important;}            /* i still don't understand why everything needs the !important thingy*/
+        background: url("firefox.png") !important;    /* about:home icon, well seems it doesn't need to be 82x82 anymore*/
+        background-size: 82px !important;}            /* i still don't understand why everything needs the !important thingy*/
 
+    /* about:firefoxview icon */
     .brand-icon{background: url("firefox.png") !important;
                 background-size: 40px !important;
-                height: 40px;} /* about:firefoxview icon */
-
+                height: 40px !important;}}
     
-/*that's still my testing, commented so won't do anything
-    .undecorated-link .sidebar-fixed-item__container .sidebar-fixed-item__icon{
-        background: url("firefox.png") !important;
-        background-size: 24px !important;} */
-    }
+    
+@-moz-document
+url(about:debugging#/runtime/this-firefox){ /*i have no idea what are the other options on that*/
+
+/*about:debugging main icon*/
+    .runtime-info__icon[src="chrome://devtools/skin/images/aboutdebugging-firefox-nightly.svg"]{
+        content: url("firefox.png") !important;}  
+    
+/*about:debugging site bar icon - disabling it because it seems out of place. see for yourself (just end a comment here)*\/
+        .sidebar-fixed-item__icon[src="chrome://devtools/skin/images/aboutdebugging-firefox-logo.svg"] { 
+            content: url("firefox.png") !important;
+            filter: sepia(100%);
+            filter: grayscale(100%);
+            }/**/
+}
