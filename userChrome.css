@@ -7,12 +7,12 @@
 /*new tab (and firefox built in) taskbar icon (aka. favicon)*/
 .tab-icon-image[src="chrome://branding/content/icon32.png"] {content: url("firefox.png") !important;}
 
-/*the keylock icon left of the url
+/*the padlock icon left of the url
 if i got this right (tested) it will show up custom one when on a https site
-and show the ol good lock when it's unsecured (or the tooltip doesn't start by "Verified by")*\/
+and show the ol good padlock when it's unsecured (or the tooltip doesn't start by "Verified by")*\/
 #identity-icon[tooltiptext^="Verified by"] { list-style-image: url('firefox.png') !important;}
 #identity-icon[tooltiptext=""]{list-style-image: url("firefox.png") !important;}
-/*still activate this by yourself, i don't remember if there were any other lock icons :P */
+/*still activate this by yourself, i don't remember if there were any other padlocks icons :P */
 
 
 

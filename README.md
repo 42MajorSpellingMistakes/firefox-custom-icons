@@ -23,8 +23,8 @@ working on other replaceable places<br>
 # what's unfinished (i have no css skills):
 this one on almost every firefox built-in page:<br>
 ![Alt text](bad1.png)<br>
-(sidenote: to change the lockbar icon to custom thingy you need to uncomment one thing in the userChrome.css<br>
-why?, because i'm not sure if there are more lock icons. for now it is set to change for when tooltip is either:<br>
+(sidenote: to change the padlock icon to custom thingy you need to uncomment one thing in the userChrome.css<br>
+why?, because i'm not sure if there are more padlock icons. for now it is set to change for when tooltip is either:<br>
 "Verified by" or "" \[on firefox about:\])<br><br><br>
 
 about:preferences:<br>
@@ -36,9 +36,11 @@ and probably other things i forgot about<br>
 # some other text
 hey you no longer need to resize that one image :+1: (happy = this does support emotes)<br>
 i may even learn web formating doing this<br>
-finally a good use for my free time
+finally a good use for my free time<br>
+i'm going to set those on my school's PCs<br>
+they can count on that<br>
 
-# made by one dude who last touched CSS like two years ago for some ass competition that he failed miserably
+# made by one dude who last (and first) touched CSS like two years ago for some ass competition that he failed miserably
 man i hate my country<br>
 you can message me on my dc if you find something new/undone (there is): 42majorspellingmistakes<br><br><br>
 
