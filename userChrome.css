@@ -7,9 +7,10 @@
 #firefox-view-button { list-style-image: url('firefox.png') !important; } /* */
 
 /*
-the lockbar icon right of the url, yeah disabling this
-for anyone wondering what this does you WANT to see the lock icon
+the lockbar icon left of the url, yeah disabling this
+for anyone wondering what this does: 
 it informs you about if a site is secure or not
+YOU WANT to see the lock icon
 #identity-icon { list-style-image: url('firefox.png') !important; }
 */
 
