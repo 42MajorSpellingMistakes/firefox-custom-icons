@@ -8,7 +8,8 @@ in this example i use those (love ya art lux)<br>
 https://twitter.com/LuxxArt/status/1727019006186664230<br>
 name it firefox.png<br>
 and another one (downscaled to 82x82) named firefox82x82.png<br>
-and that's probably all<br><br><br>
+and that's probably all the setup for now<br><br><br>
+working on other icons
 
 ![how do i attach an image in this thing?](0001109.png)
 
