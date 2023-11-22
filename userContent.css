@@ -1,12 +1,13 @@
 @-moz-document 
-url(about:home), url(about:newtab), url(about:firefoxview){
+url(about:home), url(about:newtab), url(about:firefoxview){ /* yeah there is a lot of, dunno why i can't space those out to new lines ://// */
     .search-wrapper .logo-and-wordmark .logo {
     background: url("firefox82x82.png") !important;         /* about:home icon, needs to be 82x82, doesn't show unless*/
     display: inline-block;}
 
     .brand-icon{content: url("firefox.png") !important;} /* about:firefoxview icon */
 
-.sidebar-fixed-item__icon{background: url("firefox24x24.png") !important;}
+/* that's still my testing, commented so won't do anything
+.sidebar-fixed-item__icon{background: url("firefox24x24.png") !important;} */
 }
 
 /* , url(about:newtab), url(about:firefoxview)
