@@ -11,9 +11,11 @@ https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_l
 things after live-testing aren't needed there<br>
 
 # then get some image files 
-in this example i use those (love ya art [lux](https://twitter.com/LuxxArt))<br>
+in this example i use those by [lux](https://twitter.com/LuxxArt) (love ya art lux)<br>
 https://twitter.com/LuxxArt/status/1727019006186664230<br>
 name it firefox.png<br>
+put it into the ["chrome"](https://support.mozilla.org/en-US/questions/937284) folder<br>
+folder in question: ![folder view](folder.png)
 and that's probably all the setup for now<br><br><br>
 working on other icons
 
