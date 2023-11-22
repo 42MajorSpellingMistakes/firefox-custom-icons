@@ -14,7 +14,11 @@ YOU WANT to see the lock icon
 #identity-icon { list-style-image: url('firefox.png') !important; }
 */
 
-/*new tab taskbar icon (aka. favicon)*/
+/*new tab (and firefox built in) taskbar icon (aka. favicon)*/
 .tab-icon-image[src="chrome://branding/content/icon32.png"] {content: url("firefox.png") !important;}
 
 
+/*to be done i presume.
+from about:preferences#general - some small icons in the application section
+.actionIcon{
+  background: url("firefox.png")} !important;/**/

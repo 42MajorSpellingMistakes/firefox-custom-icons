@@ -13,7 +13,8 @@ url(about:home), url(about:newtab), url(about:firefoxview), url(about:debugging)
 @-moz-document
 url(about:debugging#/runtime/this-firefox){ /*i have no idea what are the other options on that*/
 
-/*about:debugging main icon*/
+/*about:debugging main icon
+btw if you're on the nightly builds the icon would be different originally, you can change that of course*/
     .runtime-info__icon[src="chrome://devtools/skin/images/aboutdebugging-firefox-nightly.svg"]{
         content: url("firefox.png") !important;}  
     
@@ -24,3 +25,10 @@ url(about:debugging#/runtime/this-firefox){ /*i have no idea what are the other 
             filter: grayscale(100%);
             }/**/
 }
+
+/*about:processes firefox icons (there will be like 2 max on there)*/
+@-moz-document
+url("about:processes"){
+.type[style^="background-image: url(\"chrome://branding/content/icon32.png\""]{
+    background-image: url("firefox.png") !important;}}
+

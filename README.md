@@ -17,7 +17,7 @@ name it firefox.png<br>
 put it into the ["chrome"](https://support.mozilla.org/en-US/questions/937284) folder<br><br>
 folder in question:<br>![folder view](folder.png)
 <br>and that's probably all the setup for now<br><br><br>
-working on other icons
+working on other replaceable places
 
 ![how do i attach an image in this thing?](example.png)
 
