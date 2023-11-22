@@ -1,8 +1,9 @@
 @-moz-document 
 url(about:home), url(about:newtab), url(about:firefoxview){ /* yeah there is a lot of, dunno why i can't space those out to new lines ://// */
     .search-wrapper .logo-and-wordmark .logo {
-    background: url("firefox82x82.png") !important;         /* about:home icon, needs to be 82x82, doesn't show unless*/
-    display: inline-block;}
+    background: url("firefox.png") !important;          /* about:home icon, well seems it doesn't need to be 82x82 anymore*/
+    background-size: 82px !important;                   /* i still don't understand why everything needs the !important thingy*/
+    }
 
     .brand-icon{content: url("firefox.png") !important;} /* about:firefoxview icon */
 
