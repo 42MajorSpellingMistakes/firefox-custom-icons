@@ -1,7 +1,9 @@
 # btw i have no idea if this poses any security risks so use on your own responsibility (yes i'm using that too, because i love it)
 cheers<br>
 also, i urge anyone wanting to do this do read the comments in the .css files<br>
-(css comment example: /\*  comment, can be multi line \*/)
+(css comment example: /\*  comment, can be multi line \*/)<br>
+btw you need to restart firefox after changing anything in the .css files if that helps
+
 
 # how to etc:
 first this thing<br>
