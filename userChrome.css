@@ -1,10 +1,14 @@
 /*working*/
-#unified-extensions-button { list-style-image: url('firefox.png') !important; } 
-#firefox-view-button { list-style-image: url('firefox.png') !important; } 
-#identity-icon { list-style-image: url('firefox.png') !important; } 
-.brand-logo .brand-icon{
-  background: url("firefox.png") no-repeat center !important;}
 
-.tab-icon-image[src="chrome://branding/content/icon32.png"] {
-    content: url("firefox.png") !important;}
-    
+/*extensions button, you can remove that honestly*/
+#unified-extensions-button { list-style-image: url('firefox.png') !important; } 
+
+/*about:firefoxview button icon (the one on the left of the taskbar)*/
+#firefox-view-button { list-style-image: url('firefox.png') !important; } /* */
+
+/*the lockbar icon right of the url, yeah disabling this
+#identity-icon { list-style-image: url('firefox.png') !important; }*/
+
+
+/*new tab taskbar icon (aka. favicon)*/
+.tab-icon-image[src="chrome://branding/content/icon32.png"] {content: url("firefox.png") !important;}

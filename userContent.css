@@ -1,10 +1,15 @@
-@-moz-document url(about:home), url(about:newtab) {
+@-moz-document 
+url(about:home), url(about:newtab), url(about:firefoxview){
     .search-wrapper .logo-and-wordmark .logo {
-    background: url("firefox82x82.png") !important;
-    display: inline-block;
-}}
+    background: url("firefox82x82.png") !important;         /* about:home icon, needs to be 82x82, doesn't show unless*/
+    display: inline-block;}
 
-.brand-icon{content: url("firefox.png") !important;}
+    .brand-icon{content: url("firefox.png") !important;} /* about:firefoxview icon */
 
+.sidebar-fixed-item__icon{background: url("firefox24x24.png") !important;}
+}
 
-
+/* , url(about:newtab), url(about:firefoxview)
+url(about:home), url(about:newtab), url(about:firefoxview)
+url(about:home), url(about:newtab), url(about:firefoxview)
+*/
