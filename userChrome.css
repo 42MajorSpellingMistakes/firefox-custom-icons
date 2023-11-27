@@ -7,24 +7,23 @@
 /*new tab (and firefox built in) taskbar icon (aka. favicon)*/
 .tab-icon-image[src="chrome://branding/content/icon32.png"] {content: url("firefox.png") !important;}
 
+
+
 /*the padlock icon left of the url
 if i got this right (tested) it will show up custom one when on a https site
-and show the ol good padlock when it's unsecured (or the tooltip doesn't start by "Verified by")*\/
+and show the padlock when it's unsecured (or the tooltip doesn't start by "Verified by")
+remove this "\" if you want to uncomment it --> *\/
 #identity-icon[tooltiptext^="Verified by"] { list-style-image: url('firefox.png') !important;}
 #identity-icon[tooltiptext=""]{list-style-image: url("firefox.png") !important;}
-/*still activate this by yourself, i don't remember if there were any other padlocks icons :P */
+/*i'm disabling this for the padlock is an important security indicator*/
 
 
 
 
 
-/*UNFINISHED:*/
 
-/*no idea how to do it
-from about:preferences#general - some small icons in the application section
-.actionIcon{
-  background: url("firefox.png")} !important;
-#mainPrefPane{
-  content: url("firefox.png") !important;}
-hbox .actionDescription[value="Open in Firefox"]+.actionIcon
-    {list-style-image: url("firefox.png") !important;}/**/
+/*
+made by one dude who last touched CSS like two years ago for some ass competition that he failed miserably
+for updates go there (tbh i wonder if there will be any): 
+https://github.com/42MajorSpellingMistakes/firefox-custom-icons
+*/

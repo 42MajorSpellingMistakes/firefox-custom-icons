@@ -1,38 +1,48 @@
-/*
-made by one dude who last touched CSS like two years ago for some ass competition that he failed miserably
-for updates go there (tbh i wonder if there will be any): 
-https://github.com/42MajorSpellingMistakes/firefox-custom-icons
-*/
-
+/*this thing makes it applicable only on selected URLs, if it didn't, you could randomly run into some websites having replaced components (probably, my webdev knowledge is basically 0%)*/
 @-moz-document
-
-/*this thing makes it applicable only on selected URLs*/
 url(about:home),
 url(about:newtab),
 url(about:firefoxview),
 url(about:debugging),
 url(about:welcome){
 
-/* yeah there is a lot of, dunno why i can't space those out to new lines ://// */
+:root {
+    /*those are variables, if you want, just change them around to see what fits you the best*/
+    /*you can just use pixels --size* ones only, it's up to you(r imagination)*/
+    --size-ic: 82px;  /*size of the icon inside new tab. btw if you want to make it resize itself when shrinking the screen use 25vh*/
+    --size-txt: 82px; /*size of the "firefox" text inside new tab, for shrinking the same as above*/
+    --mult: 1; /*text size multipier*/
+    --mult-ic: 1; /*icon size multpilier*/
+    }
+
 .search-wrapper .logo-and-wordmark .logo {
     background: url("firefox.png") !important;
-    /* about:home icon, well seems it doesn't need to be 82x82 anymore*/
-    background-size: 82px !important;
-}
+    /* about:home icon*/
+    background-size: calc(var(--mult-ic)*var(--size-ic)) !important;
+    width: calc(var(--mult-ic)*var(--size-ic)) !important;
+    height: calc(var(--mult-ic)*var(--size-ic)) !important;
+    }
 
-/* i still don't understand why everything needs the !important thingy*/
+/*"firefox" logo text if you want to edit it or it's properties*/
+.search-wrapper .logo-and-wordmark .wordmark { 
+    background-size: calc(calc(var(--mult)*var(--size-txt))*1.63) !important;
+    height: calc(calc(var(--mult)*var(--size-txt))*0.5) !important; /*if there weren't the 0.25, the spacing would push everything (if the size was really big)*/
+    width: calc(calc(var(--mult)*var(--size-txt))*1.63) !important;
+    /* if you want to change the "firefox" text image on new page:*\/
+    background: url("chrome://branding/content/firefox-wordmark.svg");/**/
+    }
 
 /* about:firefoxview icon */
 .brand-icon {
     background: url("firefox.png") !important;
     background-size: 40px !important;
-    height: 40px !important;}
+    height: 40px !important;
+    }
 }
 
 /*about:debugging main icon*/
 @-moz-document url(about:debugging#/runtime/this-firefox){
 
-/*i have no idea what are the other options on that*/
 /*btw if you're on the nightly builds the icon would be different originally, you can change that of course*/
 .runtime-info__icon[src^="chrome://devtools/skin/images"] {
     content: url("firefox.png") !important;}
@@ -67,3 +77,28 @@ not unless my css skills get way way better*/
     background-size: 96px !important;}/**/
 }/**/
 
+/*UNFINISHED:*/
+
+/*no idea how to do it
+from about:preferences#general - some small icons in the application section
+.actionIcon{
+  background: url("firefox.png")} !important;
+#mainPrefPane{
+  content: url("firefox.png") !important;}
+hbox .actionDescription[value="Open in Firefox"]+.actionIcon
+    {list-style-image: url("firefox.png") !important;}/**/
+
+
+
+
+
+
+
+
+
+
+/*
+made by one dude who last touched CSS like two years ago for some ass competition that he failed miserably
+for updates go there (tbh i wonder if there will be any): 
+https://github.com/42MajorSpellingMistakes/firefox-custom-icons
+*/
