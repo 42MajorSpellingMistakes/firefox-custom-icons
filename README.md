@@ -1,3 +1,6 @@
+my classmate<br>
+you not see me<br>
+
 # btw i have no idea if this poses any security risks so use on your own responsibility (yes i'm using that too, because i love it)
 cheers<br>
 also, i urge anyone wanting to do this do read the comments in the .css files<br>
