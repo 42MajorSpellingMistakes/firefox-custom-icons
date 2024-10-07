@@ -1,4 +1,5 @@
-I'm slowly thinking about updating it. After half a year has passed…
+damn that how-to WAS trash. remake.
+
 
 # I have no information if this poses any security vournerabilities<br><br>
 # USE AT YOUR OWN RISK<br><br>
@@ -13,14 +14,10 @@ paste this in ```toolkit.legacyUserProfileCustomizations.stylesheets``` and set 
 open ```about:support``` and open ```profile directory```<br>
 inside the directory create a folder named ```chrome``` (the '[chrome](https://firefox-source-docs.mozilla.org/build/buildsystem/chrome-registration.html)' isn't owned by google and is actually an browser element)<br>
 go inside the ```chrome``` folder<br>
-in it copy the ```userChrome.css``` and ```userContent.css``` files, with their respective contents (you can also name the files however you like and use the ```@inport``` rule from CSS<br>
-obtain images of sacred knowledge that's even the deepest corners of 4Chan haven't seen and name it firefox.png<br>
+in it copy the ```userChrome.css``` and ```userContent.css``` files, with their respective contents (you can also name the files however you like and use the ```@import``` rule from CSS<br>
+obtain an image and name it firefox.png<br>
 restart firefox<br>
-be happy<br>
-contemplate life choices<br>
-think about the meaning of life<br>
-get up and do something life-changing, like starting a project. Doesn't have to be big or something. Even the smallest things cound<br>
-
+done<br>
 
 # Example
 in this example I use those by [lux](https://twitter.com/LuxxArt)<br>
@@ -43,10 +40,6 @@ i've tried a lot<br>
 and probably other things i forgot about<br>
 
 # some other text
-i'm going to set those on my school's PCs<br>
-update half a year later: I did it
-they can count on that<br><br>
-
 you can message me on my dc if you find something new/undone (there is): 42majorspellingmistakes<br>
 I'm better known as Lumi Tassu<br><br><br>
 good luck and have fun with your firefox o7<br>
